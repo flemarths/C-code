@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+void main (){
+
+  char x = '0',i=(int)x;
+  printf("%i",i);
+}
+
+  
