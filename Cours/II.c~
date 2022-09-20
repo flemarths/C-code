@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main(){
+}
+
+int puissance(int n,int p){
+
+  printf("quelle est la valeur de n ?\n");
+  scanf("%i",&n);
+  printf("quelle est la valeur de p ?\n");
+  scanf("%i",&p);
+
+  int r=1 ;
+  while (p>0){
+    r*=n;
+    p-=p;
+  }
+  printf(" %i à la puissance %i vaut %i \n",n,p,r);
+	}
